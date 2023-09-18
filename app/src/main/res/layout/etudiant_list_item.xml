@@ -1,0 +1,59 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/monFond"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"/>
+
+        <TextView
+            android:id="@+id/text_view_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/monFond"
+            android:text="Nom"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@color/monFond"
+            android:layout_marginEnd="16dp"
+            android:text="Prénom"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_numero_etudiant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/monFond"
+            android:text="Numéro étudiant"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_identifiant_nfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/monFond"
+            android:text="Identifiant NFC"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
